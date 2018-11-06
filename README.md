@@ -15,7 +15,6 @@ Lab 2: [Docker build](labs/02-docker-build/)
 Lab 3: [Deploy Microservices with Compose](labs/03-compose) 
 
 
-
 ## Day 2
 
 ### Labs 
