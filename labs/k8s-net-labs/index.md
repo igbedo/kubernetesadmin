@@ -36,7 +36,7 @@ sudo iptables --flush
 ```
 logout and login
 
-Test Docker
+Test Docker: Make sure docker is properlry installed before moving to the second stage to install Kubernetes
 ```
 docker ps
 docker hello-world
