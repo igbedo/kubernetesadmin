@@ -1,7 +1,7 @@
-### Install Kubernetes on AWS
-Log into all servers
+### Install Kubernetes on a cloud platform
+Login to all the IP addresses given to you
 
-### MacOS
+### If you have MacOS Laptop
 Run the following commands in a terminal
 
 ```
@@ -10,11 +10,12 @@ ssh -i /path/to/k8slab ubuntu@<server IP>
 
 ```
 
-### Windows
+### If you have Windows Laptop
 Open Putty and configure a new session.Expand “ConnectionSSHAuth and then specify the PPK file
 Now save your session
 
-###Install Docker on All servers
+## Perform the following after you are able to login to the servers.
+### Part 1: Install Docker on All servers
 First, in order to ensure the downloads are valid, add the GPG key for the official Docker repository to your system:
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -41,7 +42,7 @@ docker ps
 docker hello-world
 docker images
 ```
-### Install Kubernetes on all servers
+###  Part 2: Install Kubernetes on all servers
 Following commands must be run as the root user. To become root run:
 
 ```
