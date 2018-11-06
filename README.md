@@ -24,7 +24,7 @@ Lab 5: [Storage](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/c
 
 Lab 6: [Networking](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/network.md)
 
-Lab 7: Logging/monitoring(https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/monitoring.md)
+Lab 7: [Logging/monitoring](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/monitoring.md)
 
 
 
