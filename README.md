@@ -8,7 +8,9 @@ This site contains the content and labs for the Kubernetes Administration Course
 
 ### Labs
 
-Lab 1: [Install Docker locally](labs/01-docker-daemon)-Optional
+Lab 0: [Install Docker locally](labs/01-docker-daemon)-Optional
+
+Lab 1: [Kubernetes Architecture](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/architecture.md)
 
 Lab 2: [Deploy Kubernetes with Kubeadm](labs/k8s-net-labs/index.md)   
 
