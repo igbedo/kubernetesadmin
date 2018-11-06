@@ -14,6 +14,33 @@ ssh -i /path/to/k8slab ubuntu@<server IP>
 Open Putty and configure a new session.Expand “ConnectionSSHAuth and then specify the PPK file
 Now save your session
 
+###Install Docker on All servers
+First, in order to ensure the downloads are valid, add the GPG key for the official Docker repository to your system:
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+Add the Docker repository to APT sources:
+```
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+```
+Next, update the package database with the Docker packages from the newly added repo:
+```
+sudo apt-get update
+
+sudo apt-get install -y docker-ce
+sudo systemctl status docker
+sudo usermod -aG docker ubuntu
+sudo iptables --flush
+```
+logout and login
+
+Test Docker
+```
+docker ps
+docker hello-world
+docker images
+```
 ### Install Kubernetes on all servers
 Following commands must be run as the root user. To become root run:
 
@@ -41,6 +68,7 @@ EOF
 Now that you've added the repository install the packages
 
 ```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6A030B21BA07F4FB
 apt-get update
 apt-get install -y kubelet=1.11.3-00 kubeadm=1.11.3-00 kubectl
 
