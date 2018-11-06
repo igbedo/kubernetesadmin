@@ -1,18 +1,18 @@
-# Fundamentals of Microservices course page 
+# Kubernetes Administration Course
 
-This site contains the content and labs for the Fundamentals of Istio course. 
+This site contains the content and labs for the Kubernetes Administration Course 
 
-## [Course Content](http://bit.ly/fun-istio-slides)
+
 
 ## Day 1 
 
 ### Labs
 
-Lab 1: [Install Docker locally](labs/01-docker-daemon)
+Lab 1: [Install Docker locally](labs/01-docker-daemon)-Optional
 
-Lab 2: [Docker build](labs/02-docker-build/)   
+Lab 2: [Deploy Kubernetes with Kubeadm](labs/k8s-net-labs/index.md)   
 
-Lab 3: [Deploy Microservices with Compose](labs/03-compose) 
+Lab 3: [Deploy Microservices with Compose](labs/k8s-net-labs/index.md) 
 
 
 ## Day 2
@@ -24,4 +24,13 @@ Lab 5: [Deploy Kubernetes Pods](labs/04-pods)
 
 Lab 6: [Deploy Multi-container application](labs/05-multi)
 
-Lab 7: API Gateway https://www.dropbox.com/sh/grlgq6w4ouevyhu/AACyLxb3PBDX8_R_RSwoySZFa/API%20Gateway?dl=0&preview=Microservices+-+API+Gateway.md&subfolder_nav_tracking=1
+
+
+## Day 3
+
+### Labs 
+Lab 4: https://github.com/plusn-nuri/microservice-basics
+
+Lab 5: [Deploy Kubernetes Pods](labs/04-pods)
+
+Lab 6: [Deploy Multi-container application](labs/05-multi)
