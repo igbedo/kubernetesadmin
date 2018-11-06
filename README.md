@@ -12,7 +12,7 @@ Lab 1: [Install Docker locally](labs/01-docker-daemon)-Optional
 
 Lab 2: [Deploy Kubernetes with Kubeadm](labs/k8s-net-labs/index.md)   
 
-Lab 3: [Kubernetes Objects](labs/k8s-objects/index.md) 
+Lab 3: [Kubernetes Objects](lhttps://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/basics.md#daemons) 
 
 
 ## Day 2
