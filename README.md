@@ -12,8 +12,9 @@ Lab 1: [Install Docker locally](labs/01-docker-daemon)-Optional
 
 Lab 2: [Deploy Kubernetes with Kubeadm](labs/k8s-net-labs/index.md)   
 
-Lab 3: [Kubernetes Objects](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/basics.md#daemons) 
-Lab 4: [Scheduling] (https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/schedule.md)
+Lab 3: [Kubernetes Objects](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/basics.md) 
+
+Lab 4: [Scheduling](https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/schedule.md)
 
 
 ## Day 2
@@ -35,5 +36,6 @@ Lab 8: [Security-Accesing the Cluster] (https://github.com/igbedo/kubernetes-lab
 Lab 9: [Security- Securing the Clsuter] (https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/setup.md)
 
 Lab 10: [Cluster Maintenance] (https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/admin.md)
+
 Lab 11: [Troubleshooting] (https://github.com/igbedo/kubernetes-lab-tutorial/blob/master/content/admin.md)
 
